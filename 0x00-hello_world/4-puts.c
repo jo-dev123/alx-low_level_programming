@@ -5,11 +5,11 @@
  * @void: no parameter
  *
  * Description: puts string to standard output
- * Retur: 0 if true
+ * Return: 0 if true
  */
 int main(void)
 {
-	puts("\"Programming is like building a multilingualpuzzle");
+	puts("\"Programming is like building a multilingual puzzle");
 
 	return (0);
 }
