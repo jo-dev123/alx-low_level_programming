@@ -5,7 +5,7 @@
  * @void: no parameters available
  *
  * Description: printing size of each data type
- * Return; 0 if true
+ * Return: 0 if true
  */
 
 int main(void)
