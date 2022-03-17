@@ -19,7 +19,7 @@ int main(void)
 		current_letter++;
 	}
 
-	putchar("\n")
+	putchar('\n')
 
 	return (0);
 
