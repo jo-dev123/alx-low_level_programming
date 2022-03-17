@@ -15,9 +15,11 @@ int main(void)
 
 	while (current_letter != end_letter)
 	{
-		putchar(current_letter + "\n");
+		putchar(current_letter);
 		current_letter++;
 	}
+
+	putchar("\n")
 
 	return (0);
 
