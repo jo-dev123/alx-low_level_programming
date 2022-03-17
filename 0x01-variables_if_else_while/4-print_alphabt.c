@@ -20,4 +20,7 @@ int main(void)
 		if (strt == 'q' || strt == 'e')
 			continue;
 	}
+
+	putchar("\n");
+	return (0);
 }
