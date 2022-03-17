@@ -17,7 +17,7 @@ int main(void)
 	{
 		putchar(strt);
 		strt++;
-		if(strt == 'q' || strt == 'e')
+		if (strt == 'q' || strt == 'e')
 			continue;
 	}
 }
