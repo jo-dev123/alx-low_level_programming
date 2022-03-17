@@ -15,7 +15,7 @@ int main(void)
 
 	while (strt <= lst)
 	{
-		if (c != 'q' && c != 'e')
+		if (strt != 'q' && strt != 'e')
 		{
 			putchar(c);
 		}
