@@ -8,18 +8,17 @@
  * Return: 0 if successful
  */
 
-int main()
+int main(void)
 {
 	char current_letter = 'a';
 	char end_letter = 'z';
 
-	while(current_letter != end_letter)
+	while (current_letter != end_letter)
 	{
-		putchar(current_letter);
+		putchar(current_letter + "\n");
 		current_letter++;
 	}
 
-	putchar("\n");
 	return (0);
 
 }
