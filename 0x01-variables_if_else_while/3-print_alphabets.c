@@ -15,12 +15,12 @@ int main(void)
 	char scl = 'a';
 	char llw = 'z';
 
-	while (scl != llw)
+	while (scl <= llw)
 	{
 		putchar(scl);
 		scl++;
 	}
-	while (cl != lw)
+	while (cl <= lw)
 	{
 		putchar(cl);
 		cl++;
