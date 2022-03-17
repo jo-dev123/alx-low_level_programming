@@ -10,10 +10,10 @@
 
 int main(void)
 {
-	char cl = "A";
-	char lw = "Z";
-	char scl = "a";
-	char llw = "z";
+	char cl = 'A';
+	char lw = 'Z';
+	char scl = 'a';
+	char llw = 'z';
 
 	while (cl != lw)
 	{
