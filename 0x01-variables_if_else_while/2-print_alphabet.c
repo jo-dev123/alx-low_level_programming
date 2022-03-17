@@ -19,7 +19,7 @@ int main()
 		current_letter++;
 	}
 
-	putchar(\n);
+	putchar("\n");
 	return (0);
 
 }
