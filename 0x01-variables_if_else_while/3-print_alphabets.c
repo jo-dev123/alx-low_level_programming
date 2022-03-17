@@ -23,7 +23,7 @@ int main(void)
 	while (scl != llw)
 	{
 		putchar(scl);
-		cl++;
+		scl++;
 	}
 	putchar('\n');
 	return (0);
