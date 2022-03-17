@@ -15,10 +15,11 @@ int main(void)
 
 	while (strt <= lst)
 	{
-		putchar(strt);
-		strt++;
-		if (strt == 'q' || strt == 'e')
-			continue;
+		if(c != 'q' && c != 'e')
+		{
+			putchar(c);
+		}
+		c++;
 	}
 
 	putchar("\n");
