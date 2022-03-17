@@ -13,7 +13,7 @@ int main(void)
 	char current_letter = 'a';
 	char end_letter = 'z';
 
-	while (current_letter != end_letter)
+	while (current_letter <= end_letter)
 	{
 		putchar(current_letter);
 		current_letter++;
