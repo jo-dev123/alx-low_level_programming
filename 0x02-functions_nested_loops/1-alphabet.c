@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main- Entry Point
+ * main - Entry Point
  * @void: no Parameter
  *
  * Description: print the alphabet
