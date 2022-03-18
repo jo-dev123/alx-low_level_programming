@@ -8,8 +8,7 @@
  * Return: 0 if True
  */
 
-
-int main(void)
+void print_alphabet(void)
 {
 	char st = 'a';
 	for (st; st <= 'z'; st++)
@@ -18,5 +17,4 @@ int main(void)
 	}
 
 	_putchar("\n");
-	return (0);
 }
