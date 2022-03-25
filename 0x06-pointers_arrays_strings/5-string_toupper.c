@@ -15,7 +15,7 @@ char *cap_string(char *str)
 
 	i = 0;
 
-	while ()
+	while (str[i] != '\0')
 	{
 		if (i == 0 && str[i] >= 97 && str[i] <= 122)
 		{
