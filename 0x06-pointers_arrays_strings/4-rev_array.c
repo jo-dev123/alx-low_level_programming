@@ -14,6 +14,8 @@ void reverse_array(int *a, int n)
 	int store;
 
 	n = n - 1;
+	looper = 0;
+
 	while (looper < n)
 	{
 		store = a[looper1];
