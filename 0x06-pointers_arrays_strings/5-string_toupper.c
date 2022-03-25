@@ -7,7 +7,7 @@
  * Return: string
  */
 
-char *cap_string(char *str)
+char *cap_string(char *string)
 {
 	int i;
 	int j;
@@ -15,23 +15,23 @@ char *cap_string(char *str)
 
 	i = 0;
 
-	while (str[i] != '\0')
+	while (string[i] != '\0')
 	{
-		if (i == 0 && str[i] >= 97 && str[i] <= 122)
+		if (i == 0 && string[i] >= 97 && string[i] <= 122)
 		{
-			str[i] = str[i] - 32;
+			string[i] = string[i] - 32;
 		}
 
 		j = 0;
 		while (c[j] != '\0')
 		{
-			if (c[j] == str[i] && (str[i + 1] >= 97 && str[i + 1] <= 122))
+			if (c[j] == string[i] && (string[i + 1] >= 97 && string[i + 1] <= 122))
 			{
-				str[i + 1] = str[i + 1] - 32;
+				string[i + 1] = string[i + 1] - 32;
 			}
 			j++;
 		}
 		i++;
 	}
-	return (str);
+	return (string);
 }
