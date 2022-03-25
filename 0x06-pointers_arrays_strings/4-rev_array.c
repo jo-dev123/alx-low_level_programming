@@ -19,7 +19,7 @@ void reverse_array(int *a, int n)
 	while (looper < n)
 	{
 		store = a[looper];
-		a[looper1] = a[n];
+		a[looper] = a[n];
 		a[n] = store;
 		looper++;
 		n--;
