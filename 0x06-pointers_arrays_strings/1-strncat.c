@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strcat - concatenate string
+ * _strncat - concatenate string
  * @dest: first string
  * @src: second string
  * @n: iterating times
@@ -10,7 +10,7 @@
  * Return: pointer to resulting sting dest
  */
 
-char *_strcat(char *dest, char *src, int n)
+char *_strncat(char *dest, char *src, int n)
 {
 	int looper1;
 	int looper2;
