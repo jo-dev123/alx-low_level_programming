@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * string_toupper - lower to uppercase
+ * cap_string - lower to uppercase
  * @string: string parameter
  *
  * Return: string
