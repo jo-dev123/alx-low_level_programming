@@ -9,7 +9,8 @@
 
 char *rot13(char *str)
 {
-	int i, c;
+	int i;
+	int c;
 
 	char realLet[] = "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz";
 	char cphLet[] = "NnOoPpQqRrSsTtUuVvWwXxYyZzAaBbCcDdEeFfGgHhIiJjKkLlMm";
