@@ -1,9 +1,7 @@
 #include "main.h"
 /**
  * print_number - print int
- * @int: int parameter
- *
- * Return: int
+ * @n: int parameter
  */
 
 void print_number(int n)
