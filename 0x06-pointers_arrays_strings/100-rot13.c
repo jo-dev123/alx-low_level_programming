@@ -9,8 +9,7 @@
 
 char *rot13(char *str)
 {
-	int i;
-	int c;
+	int i, c;
 
 	char realLet[] = "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz";
 	char cphLet[] = "NnOoPpQqRrSsTtUuVvWwXxYyZzAaBbCcDdEeFfGgHhIiJjKkLlMm";
@@ -20,7 +19,10 @@ char *rot13(char *str)
 		for (c = 0; realLet[c] != '\0'; c++)
 		{
 			if (realLet[c] == str[i])
+			{
 				str[i] = cphLet[c];
+				break;
+			}
 		}
 	}
 	return (str);
