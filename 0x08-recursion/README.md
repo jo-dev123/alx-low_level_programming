@@ -3,14 +3,15 @@
 0. She locked away a secret, deep inside herself, something she once knew to be true... but chose to forget
 
 Write a function that prints a string, followed by a new line.
-- store string in an array
-- print each string by accessing its address
+- store first address
+- increment address
+- print each values of the address by pointing each address 
 ```c
-*(array + 1)
+*(string_ + 1)
 ```
 or
 
 ```c
 array[index]
 ```
-- print a new line
+- at the end of string print a new line (base case)
