@@ -2,7 +2,7 @@
 
 /**
  * _print_rev_recursion - rev string
- * @s - string
+ * @s: string
  */
 
 void _print_rev_recursion(char *s)
