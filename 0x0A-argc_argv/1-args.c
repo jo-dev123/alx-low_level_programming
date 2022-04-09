@@ -11,6 +11,8 @@
 
 int main(int argc, char *argv[])
 {
+	int i;
+
 	if (argc == 1)
 	{
 		printf("%d\n", 0);
