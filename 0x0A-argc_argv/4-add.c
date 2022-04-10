@@ -22,15 +22,15 @@ int main(int argc, char *argv[])
 	else
 	{
 		ad = 0;
-		for (i = 0; i < argc; i++)
+		for (i = 1; i < argc; i++)
 		{
 			ptr = argv[i];
 			len = strlen(ptr);
 
-			for (j = 1; j < len; j++)
+			for (j = 0; j < len; j++)
 			{
 				if (isdigit(*(ptr + j)) == 0)
-				{
+				i{
 					printf("Error\n");
 					return (1);
 				}
