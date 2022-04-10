@@ -22,7 +22,7 @@ int main(int argc, char *argv[])
 	else
 	{
 		ad = 0;
-		for (i = 1; i < argc; i++)
+		for (i = 0; i < argc; i++)
 		{
 			ptr = argv[i];
 			len = strlen(ptr);
@@ -37,7 +37,7 @@ int main(int argc, char *argv[])
 			}
 			ad += atoi(argv[i]);
 		}
-		printf("%d\n", sum);
+		printf("%d\n", ad);
 	}
 	return (0);
 }
