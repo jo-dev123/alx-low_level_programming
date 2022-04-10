@@ -5,7 +5,7 @@
 #include "main.h"
 
 /**
- * main - Entry point 
+ * main - Entry point
  * @argc: counts program argument
  * @argv: Array of Pointers to string
  *
@@ -27,7 +27,7 @@ int main(int argc, char *argv[])
 			ptr = argv[i];
 			len = strlen(ptr);
 
-			for (j = 1; j < length; j++)
+			for (j = 1; j < len; j++)
 			{
 				if (isdigit(*(ptr + j)) == 0)
 				{
@@ -35,7 +35,7 @@ int main(int argc, char *argv[])
 					return (1);
 				}
 			}
-			sum += atoi(argv[i]);
+			ad += atoi(argv[i]);
 		}
 		printf("%d\n", sum);
 	}
