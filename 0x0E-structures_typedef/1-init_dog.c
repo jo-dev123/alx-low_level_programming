@@ -8,7 +8,7 @@
  * @age: age
  * @owner: owner
  *
- * Description: Define a new type struct dog with the 
+ * Description: Define a new type struct dog with the
  * following elements:
  * name, type = char *
  * age, type = float
