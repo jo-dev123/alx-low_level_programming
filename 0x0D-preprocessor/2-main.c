@@ -1,15 +1,19 @@
-#include "main.h"
 #include <stdio.h>
+#include "main.h"
 
 /**
- * main - entry point
- * @void: mo parameter
+ * main - Entry Point
+ * @void: no argument required
  *
- * Return: 0 if successful;
+ * Description: Write a program that prints 
+ * the name of the file it was compiled from, 
+ * followed by a new line
+ * Return: 0 if successful, any other number for
+ * false
  */
 
 int main(void)
 {
-	printf("%s\n", __FILE__);
-	return (0);
+	printf("%s\n", __BASE_FILE__);
+	exit(EXIT_SUCCESS);
 }
