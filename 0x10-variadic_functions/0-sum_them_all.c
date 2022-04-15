@@ -19,9 +19,13 @@ int sum_them_all(const unsigned int n, ...)
 	{
 		return (0);
 	}
-	for (i = 0; i < n; i++)
+
+	i = 0;
+
+	while (i < n)
 	{
 		sum = sum + va_arg(list, int);
+		i++;
 	}
 	va_end(list);
 	return (sum);
