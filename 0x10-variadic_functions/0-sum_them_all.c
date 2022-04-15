@@ -12,13 +12,9 @@
 int sum_them_all(const unsigned int n, ...)
 {
 	unsigned int i;
-	double sum = 0;
+	unsigned int sum = 0;
 	va_list argn;
 
-	if (n == 0)
-	{
-		return (0);
-	}
 	if (n == 0)
 	{
 		return (0);
