@@ -11,9 +11,9 @@
 
 int sum_them_all(const unsigned int n, ...)
 {
-	va_list argn;
 	unsigned int i;
 	double sum = 0;
+	va_list argn;
 
 	if (n == 0)
 	{
