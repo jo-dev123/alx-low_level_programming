@@ -6,7 +6,7 @@
  * @separator: separator
  */
 
-void print_c(va_list list, char* separator)
+void print_c(va_list list, char *separator)
 {
 	printf("%s%c", separator, va_arg(list, int));
 }
