@@ -7,7 +7,7 @@
  * @action: callback function
  *
  * Description: function that prints a name
- * Return: void 
+ * Return: void
  */
 
 void array_iterator(int *array, size_t size, void (*action)(int))
