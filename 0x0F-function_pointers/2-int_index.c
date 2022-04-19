@@ -4,9 +4,9 @@
  * int_index - array with value
  * @array: the array to find index
  * @size: the size of the array
- * @cmp:callback function
+ * @cmp: callback function
  *
- * Return: void(nothing)
+ * Return: -1 if false
  */
 
 int int_index(int *array, int size, int (*cmp)(int))
