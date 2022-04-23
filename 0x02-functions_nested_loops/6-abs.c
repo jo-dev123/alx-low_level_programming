@@ -4,12 +4,12 @@
  * _abs - prints absolute value
  * @n: parameter of int
  *
- * Return: return 0;
+ * Return: return n
  */
 
 int _abs(int n)
 {
 	if (n < 0)
-		return (n * 1);
+		n = n * -1;
 	return (n);
 }
