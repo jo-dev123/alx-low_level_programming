@@ -9,7 +9,7 @@
 
 void _puts(char *str)
 {
-	for (str; *str != '\0'; str++)
+	for (str = str; *str != '\0'; str++)
 	{
 		_putchar(*str);
 	}
