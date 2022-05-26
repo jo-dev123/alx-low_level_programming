@@ -5,13 +5,10 @@
  * @a: first integer
  * @b: second integer
  *
- * Return: 0
+ * Return: the sum of the two numbers
  */
 
 int add(int a, int b)
 {
-	int sum;
-
-	sum = a + b;
-	return (sum);
+	return (a + b);
 }
