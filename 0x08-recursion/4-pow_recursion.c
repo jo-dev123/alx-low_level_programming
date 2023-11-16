@@ -26,5 +26,5 @@ int equal_by_sqr(int n, int equal)
 		return (equal);
 	else if (equal * equal > n)
 		return (-1);
-	equal_by_sqr(n, equal + 1);
+	return equal_by_sqr(n, equal + 1);
 }
