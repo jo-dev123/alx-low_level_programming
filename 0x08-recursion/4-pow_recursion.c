@@ -1,4 +1,8 @@
 #include "main.h"
+
+
+int equal_by_sqr(int n, int equal);
+
 /**
  *_sqrt_recursion - returns the natural square of num
  *@n: natual number
@@ -26,5 +30,5 @@ int equal_by_sqr(int n, int equal)
 		return (equal);
 	else if (equal * equal > n)
 		return (-1);
-	return equal_by_sqr(n, equal + 1);
+	return (equal_by_sqr(n, equal + 1));
 }
