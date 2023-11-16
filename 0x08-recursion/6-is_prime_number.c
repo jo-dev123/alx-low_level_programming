@@ -28,5 +28,5 @@ int compare(int num, int quot)
 
 int is_prime_number(int n)
 {
-	return (compare(n, 1));
+	return (compare(n, 2));
 }
