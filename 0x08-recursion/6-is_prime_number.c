@@ -12,6 +12,8 @@ int compare(int num, int quot)
 {
 	if (num <= 1)
 		return (0);
+	else if (num == quot)
+		return (1);
 	else if (num % quot == 0)
 		return (0);
 	return (compare(num, quot + 1));
