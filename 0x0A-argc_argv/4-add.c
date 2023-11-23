@@ -45,4 +45,5 @@ int main(int argc, char **argv)
 		printf("%d\n", adder);
 		return (0);
 	}
-
+	return (0);
+}
