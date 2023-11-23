@@ -20,29 +20,29 @@ int main(int argc, char **argv)
 	if (argc < 2)
 	{
 		printf("0\n");
-		return (1);
-	}
-
-	adder = 0;
-
-	for (a = 1; a < argc; a++)
+	} else
 	{
-		store = argv[a];
-		str_len = strlen(store);
 
-		for (b = 0; b < str_len; b++)
+		adder = 0;
+
+		for (a = 1; a < argc; a++)
 		{
-			if (isdigit(*(store + b)) == 0)
+			store = argv[a];
+			str_len = strlen(store);
+
+			for (b = 0; b < str_len; b++)
 			{
-				printf("Error\n");
-				return (1);
+				if (isdigit(*(store + b)) == 0)
+				{
+					printf("Error\n");
+					return (1);
+				}
 			}
+
+			adder += atoi(argv[a]);
+
 		}
-
-		adder += atoi(argv[a]);
-
+		printf("%d\n", adder);
+		return (0);
 	}
-	printf("%d\n", adder);
-	return (0);
-}
 
