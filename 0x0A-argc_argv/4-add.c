@@ -14,7 +14,7 @@
 
 int main(int argc, char **argv)
 {
-	int adder, str_len;
+	int adder, str_len, a, b;
 	char *store;
 
 	if (argc < 2)
@@ -25,12 +25,12 @@ int main(int argc, char **argv)
 
 	adder = 0;
 
-	for (int a = 0; a < argc; a++)
+	for (a = 1; a < argc; a++)
 	{
 		store = argv[a];
 		str_len = strlen(store);
 
-		for (int b = 0; b < str_len; b++)
+		for (b = 0; b < str_len; b++)
 		{
 			if (isdigit(*(store + b)) == 0)
 			{
@@ -39,7 +39,7 @@ int main(int argc, char **argv)
 			}
 		}
 
-		adder += atoi(argv[i]);
+		adder += atoi(argv[a]);
 
 	}
 	printf("%d\n", adder);
