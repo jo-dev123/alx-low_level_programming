@@ -1,9 +1,9 @@
 #include "function_pointers.h"
 
 /**
- * int_index - arr of value
- * @array: the arr find index
- * @size: the size the array
+ * int_index - array with value
+ * @array: the array to find index
+ * @size: the size of the array
  * @cmp: callback function
  *
  * Return: -1 if false
@@ -11,20 +11,20 @@
 
 int int_index(int *array, int size, int (*cmp)(int))
 {
-	int itr;
-	int cnt;
+	int i;
+	int count;
 
 	if (array != NULL && cmp != NULL)
 	{
-		itr = 1;
-		while (itr <= size)
+		i = 1;
+		while (i <= size)
 		{
-			cnt = cmp(array[i]);
-			if (cnt != 0)
+			count = cmp(array[i]);
+			if (count != 0)
 			{
 				return (i);
 			}
-			itr++;
+			i++;
 		}
 	}
 	return (-1);

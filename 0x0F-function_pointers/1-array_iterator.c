@@ -1,22 +1,18 @@
 #include "function_pointers.h"
-
 /**
- * array_iterator - function that print a name
- * @array: array
- * @size: size of the array
- * @action: callback function
- *
- * Description: function that prints a name
- * Return: void
+ * array_iterator - iterate aunique array list
+ * @array: identify array
+ * @size: size if the array listed
+ * @action:  pointer to the function with args type int you need to use
  */
 
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
-	size_t i;
+	size_t itr;
 
-	if (array && action && size)
+	if (array && size && action)
 	{
-		for (i = 0; i < size; i++)
-			action(array[i]);
+		for (itr = 0; itr < size; itr++)
+			action(array[i])
 	}
 }
