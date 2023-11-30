@@ -4,7 +4,7 @@
  * print_name - print name given to it
  * @name: name given to the function
  * @f: pointer to funtion of args pointer to char
- * 
+ *
  * Return: string
  */
 
